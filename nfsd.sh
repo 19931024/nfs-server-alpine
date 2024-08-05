@@ -117,7 +117,7 @@ while true; do
       exit 1
     fi
     echo "Starting Mountd in the background..."These
-    /usr/sbin/rpc.mountd --debug all --no-udp --no-nfs-version 2 --no-nfs-version 3
+    /usr/sbin/rpc.mountd --debug all --no-udp --no-nfs-version 2 --no-nfs-version 3  --nfs-version 4 --nfs-version 4.0 --nfs-version 4.1 --nfs-version 4.2
 # --exports-file /etc/exports
 
     # Check if NFS is now running by recording it's PID (if it's not running $pid will be null):
