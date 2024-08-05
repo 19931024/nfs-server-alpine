@@ -1,6 +1,6 @@
 FROM alpine:latest
-LABEL maintainer "Steven Iveson <steve@iveson.eu>"
-LABEL source "https://github.com/sjiveson/nfs-server-alpine"
+LABEL maintainer "wrong <1024@1993.io>"
+LABEL source "https://github.com/19931024/nfs-server-alpine"
 LABEL branch "master"
 COPY Dockerfile README.md /
 
