@@ -98,7 +98,7 @@ while true; do
     # Normally only required if v3 will be used
     # But currently enabled to overcome an NFS bug around opening an IPv6 socket
     echo "Starting rpcbind..."
-    /sbin/rpcbind -w
+    /sbin/rpcbind -w -d
     echo "Displaying rpcbind status..."
     /sbin/rpcinfo
 
